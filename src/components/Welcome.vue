@@ -1,4 +1,8 @@
 <template>
+    <div id="navbar">
+      <i class="fab fa-github fa-3x bounce" id="logo"></i>
+      <h1>TheFemiOlaniyi</h1>
+    </div>
     <div class="welcome">
     <div class="fa-3x">
 
