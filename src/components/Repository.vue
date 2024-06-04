@@ -13,7 +13,7 @@
 
     <div class="center">
             <input type="text" v-model="githubUsername" placeholder="Enter GitHub Username..." class="user" />
-            <button @click="fetchRepos">Fetch Repos</button>
+            <button class="clicker" @click="fetchRepos">Fetch Repos</button>
     </div>
 
 

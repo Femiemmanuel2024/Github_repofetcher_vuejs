@@ -1,4 +1,4 @@
-Hi, i am Femi and this is my webapp project.
+Hi, I am Femi and this is my web app project.
 
 ---
 
@@ -22,38 +22,28 @@ This project is a Vue.js application that fetches GitHub repositories using the 
 
 ## Installation
 1. Clone the repository:
-   ```
-   git clone https://github.com/your-username/your-repo.git
-   ```
+   `git clone https://github.com/your-username/your-repo.git`
 2. Navigate to the project directory:
-   ```
-   cd your-repo
-   ```
+   `cd your-repo`
 3. Install dependencies:
-   ```
-   npm install
-   ```
+   `yarn install`
 
 ## Usage
 1. Run the development server:
-   ```
-   npm run serve
-   ```
+   `yarn serve`
 2. Open your browser and go to `http://localhost:8080` to view the application.
 
 ## Project Structure
-- **src/**
-  - **components/**: Contains Vue.js components
-  - **router/**: Contains Vue Router configuration
-  - **App.vue**: Main Vue component
-  - **main.js**: Entry point of the application
-- **public/**
-  - **index.html**: HTML template for the application
+- **src/**: Contains source code files.
+  - **components/**: Contains Vue.js components.
+  - **router/**: Contains Vue Router configuration.
+  - **App.vue**: Main Vue component.
+  - **main.js**: Entry point of the application.
+- **public/**: Contains public files.
+  - **index.html**: HTML template for the application.
 
 ## Contributing
 Contributions are welcome! If you have any ideas or suggestions to improve the project, feel free to open an issue or submit a pull request.
-
-
 
 ---
 

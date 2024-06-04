@@ -109,6 +109,64 @@ h3 {
   .indirepos {
     width: calc(100% - 20px); /* Full width on smaller screens */
   }
+#navbar{
+  height: 100px;
+  flex-wrap: wrap;
+  overflow: hidden;
+}
+
+.clicker {
+  background-color: #2a63cb;
+  color: white;
+  text-decoration: none;
+  border: 1px solid transparent;
+  font-weight: bold;
+  padding: 10px 10px;
+  border-radius: 10px;
+  transition: transform .4s;
+  font-size: small;
+  
+}
+
+
+  .controls {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px; /* Space between the search bar and the button */
+    margin-bottom: 10px; /* Space below the controls section */
+    margin-top: 20px;
+    flex-direction: column;
+  }
+  
+  .controls input[type="text"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+  }
+  
+}
+
+@media screen and (max-width: 400px) {
+  #navbar {
+
+    column-gap: 10px;
+
+} 
+ 
+  .clicker {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    border: 1px solid transparent;
+    font-weight: bold;
+    padding: 10px 10px;
+    border-radius: 10px;
+    transition: transform .4s;
+    font-size: 11px;
+    
+  }
+  
 }
 
 .pagination {
